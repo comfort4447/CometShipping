@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sage_ebs.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SageEBS"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".SignWithGmail" />
+        <activity android:name=".NavigationActivity" />
+        <activity android:name=".BillLadingNumber" />
+        <activity android:name=".ScanActivity" />
+        <activity android:name=".Cargo_tracking" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CargoActivity" />
+        <activity android:name=".DepartureActivity" />
+        <activity android:name=".TryThisActivity" />
+        <activity android:name=".TestingActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".OnBoardingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+    </application>
+
+</manifest>

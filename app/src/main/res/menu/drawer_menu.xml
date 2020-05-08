@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools = "http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_navigation">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/user"
+            android:title="My Account" />
+        <item
+            android:id="@+id/Departure"
+            android:icon="@drawable/receipt"
+            android:title="Cargo Arrival/Departure" />
+        <item
+            android:id="@+id/cargoTracking"
+            android:icon="@drawable/receipt"
+            android:title="Cargo Tracking" />
+        <item
+            android:id="@+id/rotation"
+            android:icon="@drawable/receipt"
+            android:title="Get Rotation Number" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/getInvoice"
+                android:icon="@drawable/receipt"
+                android:title="Get Invoice Estimate" />
+            <item
+                android:id="@+id/payInvoice"
+                android:icon="@drawable/receipt"
+                android:title="Pay Invoice Online" />
+            <item
+                android:id="@+id/cargoTransfer"
+                android:icon="@drawable/transfer"
+                android:title="Request Cargo Transfer" />
+            <item
+                android:id="@+id/cargoExamination"
+                android:icon="@drawable/exam"
+                android:title="Start Cargo Release" />
+            <item
+                android:id="@+id/RotationNumber"
+                android:icon="@drawable/rotate2"
+                android:title="Start Terminal Release" />
+            <item
+                android:id="@+id/Off_dock"
+                android:icon="@drawable/logout"
+                android:title="Off-Dock Confirmation" />
+            <item
+                android:id="@+id/Booking"
+                android:icon="@drawable/logout"
+                android:title="Export Booking" />
+            <item
+                android:id="@+id/otherServices"
+                android:icon="@drawable/logout"
+                android:title="Other Services" />
+        </menu>
+
+    </item>
+
+</menu>

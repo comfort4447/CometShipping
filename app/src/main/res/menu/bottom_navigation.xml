@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/VGM"
+        android:icon="@drawable/receipt"
+        android:title="Get Invoice"
+        />
+    <item android:id="@+id/services"
+        android:icon="@drawable/receipt"
+        android:title="Pay Invoice"
+        />
+    <item android:id="@+id/tracking"
+        android:icon="@drawable/transfer"
+        android:title="Cargo Transfer"
+        />
+    <item android:id="@+id/Transfer"
+        android:icon="@drawable/exam"
+        android:title="Cargo Examination"
+        />
+    <item android:id="@+id/logout"
+        android:icon="@drawable/rotate2"
+        android:title="Rotation Number"
+        />
+
+
+
+
+</menu>

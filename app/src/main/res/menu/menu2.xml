@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/arrival"
+        android:title="Cargo Arrival/Departure"
+        android:showAsAction="never" />
+    <item android:id="@+id/cargo_tracking"
+        android:title="Cargo Tracking"
+        android:showAsAction="never" />
+    <item android:id="@+id/logout"
+        android:title="Log out"
+        android:showAsAction="never" />
+    <item android:id="@+id/btn_back"
+        android:icon="@drawable/arrow"
+        android:title="Back"
+        android:showAsAction="ifRoom" />
+</menu>
